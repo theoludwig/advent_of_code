@@ -39,7 +39,7 @@ impl RaceStrategy {
 pub fn part_1(input: &str) -> usize {
     fn get_numbers_from_line(line: &str) -> Vec<usize> {
         line.split(':')
-            .last()
+            .next_back()
             .unwrap_or_default()
             .split_ascii_whitespace()
             .map(|value| value.trim())
@@ -70,7 +70,7 @@ pub fn part_1(input: &str) -> usize {
 pub fn part_2(input: &str) -> usize {
     fn get_number_from_line(line: &str) -> usize {
         line.split(':')
-            .last()
+            .next_back()
             .unwrap_or_default()
             .replace(' ', "")
             .trim()

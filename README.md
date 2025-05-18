@@ -26,7 +26,7 @@
 
 The project is **tested** against the following [Rust](https://www.rust-lang.org/) versions:
 
-- **Minimum Supported Rust Version (MSRV): v1.84.1**
+- **Minimum Supported Rust Version (MSRV): v1.87.0**
 - **Latest Stable Version**
 
 ## Usage

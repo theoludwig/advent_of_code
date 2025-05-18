@@ -1,4 +1,4 @@
-# - Day 6 àf 2023: Wait For It -
+# - Day 6 of 2023: Wait For It -
 
 Source: <https://adventofcode.com/2023/day/6>
 
